@@ -54,11 +54,11 @@ const calcScore = () => {
 const sortResult = (point) => {
   let num = 0;
   if (point <= 20) {
-    num = 0;
+    num = 2;//2=체육분과(15점)
   } else if (point <= 30) {
-    num = 1;
+    num = 0;//0=연행분과(29점)
   } else if (point <= 40) {
-    num = 2;
+    num = 1;
   } else if (point <= 50) {
     num = 3;
   } else if (point <= 60) {
@@ -90,15 +90,15 @@ const goResult = () => {
   const animal = document.querySelector('.result');
   const desc = document.querySelector('.res');
 
-  pTitle.innerHTML = u_name.value + ' 님에게 추천하는 동아리 분과는';
-  res_point.innerHTML = point + '점';
+  pTitle.innerHTML = u_name.value + ' 님은...';
+  res_point.innerHTML = point + '점';//점수표시
   //pin.style.marginLeft = infoList[grade].mLeft;
   //res_img.src = img_url;
   //res_img.alt = infoList[grade].name;
   //res_img.title = infoList[grade].name;
   //res_img_div.appendChild(res_img);
-  animal.innerHTML = infoList[grade].name;
-  desc.innerHTML = infoList[grade].desc;
+  animal.innerHTML = infoList[grade].name;//커다란 설명
+  desc.innerHTML = infoList[grade].desc;//자세한 설명
 
   setTimeout(() => {
     header.style.display = 'block';

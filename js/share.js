@@ -1,6 +1,6 @@
-const url = 'https://dev-dain.github.io/10-things-test';
+const url = 'https://hyounjin.github.io/irrum_40th/';
 const title = '[동아리 분과 테스트] 찰떡궁합 동아리 ';
-const hash = '%2310_things_test %233분이미지테스트 %23이미지테스트 ';
+const hash = '%23irrum_40th %233분동아리테스트 %23동아리분과테스트 ';
 
 const fb = () => {
   window.open('https://www.facebook.com/sharer/sharer.php?u='
