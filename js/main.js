@@ -53,12 +53,12 @@ const calcScore = () => {
 
 const sortResult = (point) => {
   let num = 0;
-  if (point <= 20) {
+  if (point <= 30) {
     num = 2;//2=체육분과(15점)
-  } else if (point <= 30) {
+  } else if (point <= 80) {
     num = 0;//0=연행분과(29점)
-  } else if (point <= 40) {
-    num = 1;
+  } else if (point <= 150) {
+    num = 1;//1=교양&학술 분과
   } else {
     num = 3;//3=종교분과(1093점)
   }
@@ -87,7 +87,7 @@ const goResult = () => {
   const desc = document.querySelector('.res');
 
   pTitle.innerHTML = u_name.value + ' 님은...';
-  //res_point.innerHTML = point + '점';//점수표시
+  res_point.innerHTML = point + '점';//점수표시
   //pin.style.marginLeft = infoList[grade].mLeft;
   //res_img.src = img_url;
   //res_img.alt = infoList[grade].name;
