@@ -59,12 +59,8 @@ const sortResult = (point) => {
     num = 0;//0=연행분과(29점)
   } else if (point <= 40) {
     num = 1;
-  } else if (point <= 50) {
-    num = 3;
-  } else if (point <= 60) {
-    num = 4;
   } else {
-    num = 5;
+    num = 3;//3=종교분과(1093점)
   }
   return num;
 }
@@ -91,7 +87,7 @@ const goResult = () => {
   const desc = document.querySelector('.res');
 
   pTitle.innerHTML = u_name.value + ' 님은...';
-  res_point.innerHTML = point + '점';//점수표시
+  //res_point.innerHTML = point + '점';//점수표시
   //pin.style.marginLeft = infoList[grade].mLeft;
   //res_img.src = img_url;
   //res_img.alt = infoList[grade].name;

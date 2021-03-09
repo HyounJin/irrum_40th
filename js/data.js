@@ -51,9 +51,9 @@ const qnaList = [
       { answer: 'a. 친구들과 줌으로 랜선 춤파티 ㄱㄱ~', score: 6 },
       { answer: 'b. 일요일이니까 집에서 예배부터 드리고 할 일 하자!', score: 1000 },
       { answer: 'c. 밀렸던 감상 싹 다 하기 프로젝트! 책, 다큐멘터리, 영화, 다 볼거야!', score: 0 },
-      { answer: 'd. 게임(수정해야함)', score: 2 },
+      { answer: 'd. 집에서 혼자 놀기에는 게임이 제격이지~', score: 2 },
       { answer: 'e. 코로나여도 근손실은 못참지, 홈트!', score: 1 },
-      { answer: 'f. 그림그리기(수정해야함)', score: 2 }
+      { answer: 'f. 좋아하는 그림 그려서 친구들한테 자랑하고싶어~!', score: 2 }
     ]
   },
   {
