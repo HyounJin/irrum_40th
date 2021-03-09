@@ -61,7 +61,7 @@ const qnaList = [
     a: [
       { answer: 'a. 길거리 퍼레이드와 공연이 펼쳐지는 낭만적인 브라질의 밤', score: 5 },
       { answer: 'b. 축구의 나라, 스포츠의 고장 영국', score: 1 },
-      { answer: 'c. 루브르 박물관보러 프랑스', score: 15 },
+      { answer: 'c. 루브르 박물관 보러 프랑스', score: 15 },
       { answer: 'd. 봉사활동도 하고 소소한 여행도 할 수 있는 캄보디아 ', score: 0 }
     ]
   },
